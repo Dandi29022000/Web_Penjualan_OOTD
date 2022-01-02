@@ -11,7 +11,7 @@ services:
       - app-network
 
   web_server:
-    image: dandiagungs29/pwl-project-app:latest
+    image: dandiagungs29/pwl-project-server:latest
     container_name: web_server
     restart: unless-stopped
     tty: true
